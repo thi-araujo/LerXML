@@ -7,3 +7,4 @@ import xml.etree.ElementTree as ET
 import os
 
 def ler_codigo_de_barras(xml_file):
+    tree = ET.parse(xml_file)

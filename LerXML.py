@@ -10,4 +10,5 @@ def ler_codigo_de_barras(xml_file):
     tree = ET.parse(xml_file)
     root = tree.getroot()
 
-    #
+
+# Encontre o elemento que contém o código de barras

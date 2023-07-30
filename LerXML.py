@@ -12,3 +12,4 @@ def ler_codigo_de_barras(xml_file):
 
 
 # Encontre o elemento que contém o código de barras
+    codigo_de_barras = root.find('CodigoDeBarras').text

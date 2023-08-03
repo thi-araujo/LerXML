@@ -17,3 +17,5 @@ def ler_codigo_de_barras(xml_file):
 # Validação do código de barras
 
     return codigo_de_barras
+
+def validar_codigos_de_barras_em_pasta(pasta):

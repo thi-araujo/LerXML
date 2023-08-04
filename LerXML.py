@@ -21,3 +21,5 @@ def ler_codigo_de_barras(xml_file):
 def validar_codigos_de_barras_em_pasta(pasta):
     arquivos_xml = [f for f in os.listdir(pasta) if f.endswith('.xml')]
 
+    # Faça a validação do código de barras aqui
+

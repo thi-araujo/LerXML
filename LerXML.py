@@ -22,5 +22,6 @@ def validar_codigos_de_barras_em_pasta(pasta):
     arquivos_xml = [f for f in os.listdir(pasta) if f.endswith('.xml')]
 
     for arquivo_xml in arquivos_xml:
+        caminho_arquivo = os.path.join(pasta, arquivo_xml)
 
 

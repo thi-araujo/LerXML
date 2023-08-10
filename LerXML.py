@@ -23,5 +23,6 @@ def validar_codigos_de_barras_em_pasta(pasta):
 
     for arquivo_xml in arquivos_xml:
         caminho_arquivo = os.path.join(pasta, arquivo_xml)
+        codigo_de_barras = ler_codigo_de_barras(caminho_arquivo)
 
 

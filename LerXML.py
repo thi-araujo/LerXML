@@ -29,3 +29,5 @@ def validar_codigos_de_barras_em_pasta(pasta):
 
 print(f'Arquivo: {arquivo_xml}, Código de Barras: {codigo_de_barras}, Validação: {validacao}')
 
+# Exemplo de uso
+

@@ -33,3 +33,13 @@ print(f'Arquivo: {arquivo_xml}, Código de Barras: {codigo_de_barras}, Validaç�
 pasta_xml = '/caminho/para/a/pasta/xml' # aqui vc informa o caminho do arquivo
 validar_codigos_de_barras_em_pasta(pasta_xml)
 
+
+
+"""Nesse exemplo, a função ler_codigo_de_barras recebe o caminho de um arquivo XML e retorna o código de barras contido nele. Você deve implementar a validação do código de barras nessa função.
+
+A função validar_codigos_de_barras_em_pasta recebe o caminho para uma pasta contendo arquivos XML e itera sobre eles, chamando a função ler_codigo_de_barras para cada arquivo e realizando a validação desejada.
+
+Certifique-se de substituir /caminho/para/a/pasta/xml pelo caminho real da pasta que contém seus arquivos XML.
+
+Lembre-se de adaptar esse exemplo de acordo com a estrutura do seu XML e as regras específicas de validação do código de barras.""""
+

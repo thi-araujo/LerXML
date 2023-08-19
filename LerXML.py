@@ -44,3 +44,4 @@ Certifique-se de substituir /caminho/para/a/pasta/xml pelo caminho real da pasta
 Lembre-se de adaptar esse exemplo de acordo com a estrutura do seu XML e as regras específicas de validação do código de barras.""""
 
 import xml.etree.ElementTree as ET
+import keyboard

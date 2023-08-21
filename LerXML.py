@@ -45,3 +45,5 @@ Lembre-se de adaptar esse exemplo de acordo com a estrutura do seu XML e as regr
 
 import xml.etree.ElementTree as ET
 import keyboard
+
+def read_barcode():

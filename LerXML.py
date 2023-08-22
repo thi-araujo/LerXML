@@ -47,3 +47,4 @@ import xml.etree.ElementTree as ET
 import keyboard
 
 def read_barcode():
+    barcode = ""

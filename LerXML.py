@@ -50,3 +50,4 @@ def read_barcode():
     barcode = ""
     keyboard.on_release_key("enter", lambda _: keyboard.write("\n"))
     keyboard.wait("esc")
+    return barcode

@@ -53,3 +53,4 @@ def read_barcode():
     return barcode
 
 def read_xml_barcode(xml_file):
+    tree = ET.parse(xml_file)

@@ -51,3 +51,5 @@ def read_barcode():
     keyboard.on_release_key("enter", lambda _: keyboard.write("\n"))
     keyboard.wait("esc")
     return barcode
+
+def read_xml_barcode(xml_file):

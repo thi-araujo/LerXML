@@ -57,3 +57,5 @@ def read_xml_barcode(xml_file):
     root = tree.getroot()
 
     barcode = ""
+
+    for element in root.iter():

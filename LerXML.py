@@ -59,3 +59,4 @@ def read_xml_barcode(xml_file):
     barcode = ""
 
     for element in root.iter():
+        if element.tag == "Barcode":

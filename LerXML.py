@@ -62,3 +62,5 @@ def read_xml_barcode(xml_file):
         if element.tag == "Barcode":
             barcode = element.text
             break
+
+        return barcode

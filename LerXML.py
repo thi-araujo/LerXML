@@ -64,3 +64,6 @@ def read_xml_barcode(xml_file):
             break
 
         return barcode
+
+# Caminho para o arquivo XML
+

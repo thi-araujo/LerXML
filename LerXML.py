@@ -68,3 +68,5 @@ def read_xml_barcode(xml_file):
 # Caminho para o arquivo XML
 xml_file_path = "caminho/para/o/arquivo.xml"
 
+# Lendo o código de barras do XML
+

@@ -72,3 +72,4 @@ xml_file_path = "caminho/para/o/arquivo.xml"
 barcode_from_xml = read_xml_barcode(xml_file_path)
 
 # Simulando a leitura do código de barras pelo teclado
+print("Escaneie o código de barras:")

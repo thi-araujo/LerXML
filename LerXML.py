@@ -73,3 +73,4 @@ barcode_from_xml = read_xml_barcode(xml_file_path)
 
 # Simulando a leitura do código de barras pelo teclado
 print("Escaneie o código de barras:")
+barcode_from_reader = read_barcode()

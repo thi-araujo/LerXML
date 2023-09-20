@@ -77,3 +77,4 @@ barcode_from_reader = read_barcode()
 
 # Comparando os códigos de barras
 if barcode_from_xml == barcode_from_reader:
+    print("Códigos de barras coincidem.")

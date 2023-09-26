@@ -80,3 +80,6 @@ if barcode_from_xml == barcode_from_reader:
     print("Códigos de barras coincidem.")
 else:
     print("Códigos de barras diferentes.")
+
+"""Para validar um arquivo XML em uma pasta usando Python, você pode usar a biblioteca xmlschema. 
+Você precisará instalar essa biblioteca usando o pip antes de começar:""""

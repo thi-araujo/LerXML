@@ -82,6 +82,7 @@ else:
     print("Códigos de barras diferentes.")
 
 """Para validar um arquivo XML em uma pasta usando Python, você pode usar a biblioteca xmlschema. 
-Você precisará instalar essa biblioteca usando o pip antes de começar:""""
+Você precisará instalar essa biblioteca usando o pip antes de começar:"""
 
 pip install xmlschema
+

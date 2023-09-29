@@ -87,4 +87,5 @@ Você precisará instalar essa biblioteca usando o pip antes de começar:"""
 pip install xmlschema
 
 import os
+from xmlschema import XMLSchema
 

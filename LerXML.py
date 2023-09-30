@@ -89,3 +89,5 @@ pip install xmlschema
 import os
 from xmlschema import XMLSchema
 
+def validar_xml_pasta(caminho_pasta):
+

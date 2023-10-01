@@ -91,3 +91,7 @@ from xmlschema import XMLSchema
 
 def validar_xml_pasta(caminho_pasta):
 
+
+
+def validar_xml_pasta(caminho_pasta):
+

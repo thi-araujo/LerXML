@@ -93,6 +93,7 @@ def validar_xml_pasta(caminho_pasta):
     for arquivo in os.listdir(caminho_pasta):
         caminho_arquivo = os.path.join(caminho_pasta, arquivo)
         if arquivo.endswith(".xml"):
+            try:
 
 
 

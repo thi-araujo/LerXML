@@ -94,7 +94,7 @@ def validar_xml_pasta(caminho_pasta):
         caminho_arquivo = os.path.join(caminho_pasta, arquivo)
         if arquivo.endswith(".xml"):
             try:
-                schema = XMLSchema('caminho_para_schema.xsd')  # Substitua
+                schema = XMLSchema('caminho_para_schema.xsd')  # Substitua pelo caminho do arquivo XSD de validação
 
 
 

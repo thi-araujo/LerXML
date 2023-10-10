@@ -95,9 +95,10 @@ def validar_xml_pasta(caminho_pasta):
         if arquivo.endswith(".xml"):
             try:
                 schema = XMLSchema('caminho_para_schema.xsd')  # Substitua pelo caminho do arquivo XSD de validação
-            schema.validate(caminho_arquivo)
-            print(f'{caminho_arquivo} é um XML válido.')
-        except Exception as e:
+                schema.validate(caminho_arquivo)
+                print(f'{caminho_arquivo} é um XML válido.')
+            except Exception as e:
+                print(f'{caminho_arquivo} não é um XML válido. Erro: {str(e)}')
 
 
 

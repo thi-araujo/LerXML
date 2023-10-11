@@ -100,6 +100,9 @@ def validar_xml_pasta(caminho_pasta):
             except Exception as e:
                 print(f'{caminho_arquivo} não é um XML válido. Erro: {str(e)}')
 
+caminho_pasta = 'caminho_da_pasta'  # Substitua pelo caminho da sua pasta
+
+
 
 
 def validar_xml_pasta(caminho_pasta):

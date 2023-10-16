@@ -103,6 +103,9 @@ def validar_xml_pasta(caminho_pasta):
 caminho_pasta = 'caminho_da_pasta'  # Substitua pelo caminho da sua pasta
 validar_xml_pasta(caminho_pasta)
 
+"""Certifique-se de substituir 'caminho_para_schema.xsd' pelo caminho do arquivo XSD que contém a definição de validação do seu XML. 
+Além disso, substitua 'caminho_da_pasta' pelo caminho da pasta que contém os arquivos XML que você deseja validar.
+
 
 
 

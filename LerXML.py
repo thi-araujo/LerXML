@@ -106,6 +106,8 @@ validar_xml_pasta(caminho_pasta)
 """Certifique-se de substituir 'caminho_para_schema.xsd' pelo caminho do arquivo XSD que contém a definição de validação do seu XML. 
 Além disso, substitua 'caminho_da_pasta' pelo caminho da pasta que contém os arquivos XML que você deseja validar.
 
+O código percorrerá todos os arquivos na pasta especificada e verificará se cada um deles é um XML válido de acordo com o esquema fornecido.
+Ele imprimirá uma mensagem indicando se cada arquivo é válido ou não."""
 
 
 

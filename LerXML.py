@@ -110,6 +110,9 @@ O código percorrerá todos os arquivos na pasta especificada e verificará se c
 Ele imprimirá uma mensagem indicando se cada arquivo é válido ou não."""
 
 
-
+"""Para transformar um arquivo XML em um arquivo PDF 
+usando Python, você pode utilizar a biblioteca reportlab. 
+Essa biblioteca permite a criação de documentos PDF programaticamente. 
+Aqui está um exemplo de código que faz isso:""""
 def validar_xml_pasta(caminho_pasta):
 

@@ -116,5 +116,6 @@ Essa biblioteca permite a criação de documentos PDF programaticamente.
 Aqui está um exemplo de código que faz isso:""""
 
 from reportlab.pdfgen import canvas
+from reportlab.lib.pagesizes import letter
 def validar_xml_pasta(caminho_pasta):
 

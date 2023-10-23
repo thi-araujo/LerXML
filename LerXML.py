@@ -118,5 +118,7 @@ Aqui está um exemplo de código que faz isso:""""
 from reportlab.pdfgen import canvas
 from reportlab.lib.pagesizes import letter
 from xml.dom import minidom
-def validar_xml_pasta(caminho_pasta):
+
+def convert_xml_to_pdf(xml_file, pdf_file):
+
 

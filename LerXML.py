@@ -122,5 +122,6 @@ from xml.dom import minidom
 def convert_xml_to_pdf(xml_file, pdf_file):
     # Carrega o arquivo XML
     xmldoc = minidom.parse(xml_file)
+    items = xmldoc.getElementsByTagName('item')
 
 

@@ -124,4 +124,6 @@ def convert_xml_to_pdf(xml_file, pdf_file):
     xmldoc = minidom.parse(xml_file)
     items = xmldoc.getElementsByTagName('item')
 
+    # Inicia o documento PDF
+
 

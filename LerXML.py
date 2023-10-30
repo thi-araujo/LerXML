@@ -128,5 +128,6 @@ def convert_xml_to_pdf(xml_file, pdf_file):
     c = canvas.Canvas(pdf_file, pagesize=letter)
 
     # Define a posição inicial
+    y = 750
 
 

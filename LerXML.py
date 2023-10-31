@@ -130,4 +130,6 @@ def convert_xml_to_pdf(xml_file, pdf_file):
     # Define a posição inicial
     y = 750
 
+    # Percorre os itens do XML
+
 

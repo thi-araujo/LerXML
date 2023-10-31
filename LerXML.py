@@ -131,5 +131,6 @@ def convert_xml_to_pdf(xml_file, pdf_file):
     y = 750
 
     # Percorre os itens do XML
+    for item in items:
 
 

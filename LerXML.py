@@ -133,6 +133,7 @@ def convert_xml_to_pdf(xml_file, pdf_file):
     # Percorre os itens do XML
     for item in items:
         # Obtém o texto do item
+        text = item.firstChild.data
 
 
 

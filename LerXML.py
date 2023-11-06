@@ -135,6 +135,7 @@ def convert_xml_to_pdf(xml_file, pdf_file):
         # Obtém o texto do item
         text = item.firstChild.data
         # Desenha o texto no PDF
+        c.drawString(100, y, text)
 
 
 

@@ -138,7 +138,8 @@ def convert_xml_to_pdf(xml_file, pdf_file):
         # Desenha o texto no PDF
         c.drawString(100, y, text)
 
-        # Atualiza a posiçao Y
+        # Atualiza a posição Y
+        y -= 20
 
 
 

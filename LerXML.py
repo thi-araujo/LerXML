@@ -141,5 +141,7 @@ def convert_xml_to_pdf(xml_file, pdf_file):
         # Atualiza a posição Y
         y -= 20
 
+        # Fecha o documento PDF
+
 
 

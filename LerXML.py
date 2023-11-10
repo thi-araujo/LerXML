@@ -142,6 +142,7 @@ def convert_xml_to_pdf(xml_file, pdf_file):
         y -= 20
 
         # Fecha o documento PDF
+        c.save()
 
 
 

@@ -144,5 +144,7 @@ def convert_xml_to_pdf(xml_file, pdf_file):
         # Fecha o documento PDF
         c.save()
 
+# Caminho do arquivo XML de entrada e do arquivo PDF de saída
+
 
 

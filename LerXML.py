@@ -146,6 +146,7 @@ def convert_xml_to_pdf(xml_file, pdf_file):
 
 # Caminho do arquivo XML de entrada e do arquivo PDF de saída
 xml_file = 'caminho/do/arquivo.xml'
+pdf_file = 'caminho/do/arquivo.pdf'
 
 
 

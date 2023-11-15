@@ -148,5 +148,7 @@ def convert_xml_to_pdf(xml_file, pdf_file):
 xml_file = 'caminho/do/arquivo.xml'
 pdf_file = 'caminho/do/arquivo.pdf'
 
+# Chama a função para converter o XML em PDF
+
 
 

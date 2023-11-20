@@ -153,5 +153,6 @@ convert_xml_to_pdf(xml_file, pdf_file)
 
 """Certifique-se de substituir 'caminho/do/arquivo.xml' 
 pelo caminho real do seu arquivo XML e 'caminho/do/arquivo.pdf' 
+pelo caminho onde você deseja salvar o arquivo PDF resultante.
 
 

@@ -156,5 +156,6 @@ pelo caminho real do seu arquivo XML e 'caminho/do/arquivo.pdf'
 pelo caminho onde você deseja salvar o arquivo PDF resultante.
 
 Este exemplo assume que o XML tem uma estrutura onde cada item está 
+dentro de uma tag <item>. Você pode personalizar o código para se adequar 
 
 

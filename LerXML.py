@@ -160,4 +160,6 @@ dentro de uma tag <item>. Você pode personalizar o código para se adequar
 à estrutura específica do seu XML, obtendo os elementos necessários e 
 formatando o PDF conforme desejado.
 
+Para enviar um arquivo PDF por e-mail usando Python, você precisará utilizar uma biblioteca 
+
 

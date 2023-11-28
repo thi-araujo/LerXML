@@ -164,4 +164,6 @@ Para enviar um arquivo PDF por e-mail usando Python, você precisará utilizar u
 como a smtplib para enviar o e-mail e a biblioteca email para criar a mensagem de e-mail.
 Aqui está um exemplo de código que faz isso:""""
 
+import smtplib
+
 

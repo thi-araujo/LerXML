@@ -170,3 +170,4 @@ from email.mime.base import MIMEBase
 from email import encoders
 
 def enviar_email(email_rem, senha_rem, email_dest, assunto, mensagem, arquivo_pdf):
+# Configurar os detalhes do remetente e destinatário

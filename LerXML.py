@@ -171,6 +171,6 @@ from email import encoders
 
 def enviar_email(email_rem, senha_rem, email_dest, assunto, mensagem, arquivo_pdf):
 # Configurar os detalhes do remetente e destinatário
-    remetente = email_rem
+    remetente = email_rem #Informe o e-mail do remetente
     senha = senha_rem
     destinatario = email_dest

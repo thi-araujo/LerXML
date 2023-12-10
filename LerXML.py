@@ -174,3 +174,5 @@ def enviar_email(email_rem, senha_rem, email_dest, assunto, mensagem, arquivo_pd
     remetente = email_rem #Informe o e-mail do remetente
     senha = senha_rem #Informe a senha semetente
     destinatario = email_dest # informe o e-mail d destinatario
+
+# Criar a mensagem de e-mail

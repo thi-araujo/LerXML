@@ -176,3 +176,4 @@ def enviar_email(email_rem, senha_rem, email_dest, assunto, mensagem, arquivo_pd
     destinatario = email_dest # informe o e-mail d destinatario
 
 # Criar a mensagem de e-mail
+msg = MIMEMultipart()

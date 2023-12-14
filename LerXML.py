@@ -179,3 +179,4 @@ def enviar_email(email_rem, senha_rem, email_dest, assunto, mensagem, arquivo_pd
     msg = MIMEMultipart()
     msg['From'] = remetente
     msg['To'] = destinatario
+    msg['Subject'] = assunto

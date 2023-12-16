@@ -182,3 +182,4 @@ def enviar_email(email_rem, senha_rem, email_dest, assunto, mensagem, arquivo_pd
     msg['Subject'] = assunto
 
 # Adicionar o corpo da mensagem
+msg.attach(MIMEText(mensagem, 'plain'))

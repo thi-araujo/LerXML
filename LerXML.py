@@ -185,3 +185,4 @@ def enviar_email(email_rem, senha_rem, email_dest, assunto, mensagem, arquivo_pd
 msg.attach(MIMEText(mensagem, 'plain'))
 
 # Anexar o arquivo PDF
+with open(arquivo_pdf, 'rb') as attachment:

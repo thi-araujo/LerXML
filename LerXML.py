@@ -186,3 +186,4 @@ msg.attach(MIMEText(mensagem, 'plain'))
 
 # Anexar o arquivo PDF
 with open(arquivo_pdf, 'rb') as attachment:
+    part = MIMEBase('application', 'octet-stream')

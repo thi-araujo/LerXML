@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nfeProc xmlns="http://www.portalfiscal.inf.br/nfe" versao="4.00">
+  <NFe>
+    <infNFe Id="NFe31261144555666000181550020000003101990011222" versao="4.00">
+      <ide>
+        <cUF>31</cUF><cNF>99001122</cNF><natOp>Venda de mercadoria (EXEMPLO FICTÍCIO)</natOp><mod>55</mod>
+        <serie>2</serie><nNF>310</nNF><dhEmi>2026-11-03T11:00:00-03:00</dhEmi><tpNF>1</tpNF><tpEmis>1</tpEmis>
+        <cDV>2</cDV><tpAmb>2</tpAmb>
+      </ide>
+      <emit>
+        <CNPJ>44555666000181</CNPJ><xNome>Papelaria Modelo S.A. (FICTÍCIA)</xNome>
+        <enderEmit><xLgr>Rua Fictícia</xLgr><nro>100</nro><xMun>Cidade Exemplo</xMun><UF>MG</UF></enderEmit>
+      </emit>
+      <dest>
+        <CNPJ>77888999000181</CNPJ><xNome>Loja Demonstração ME (FICTÍCIA)</xNome>
+      </dest>
+      <det nItem="1">
+        <prod>
+          <cProd>CAD-010</cProd><cEAN>7890000000024</cEAN><xProd>Caderno universitário 10 matérias</xProd>
+          <NCM>48202000</NCM><CFOP>5102</CFOP><uCom>UN</uCom><qCom>24.0000</qCom>
+          <vUnCom>18.75</vUnCom><vProd>450.00</vProd><cEANTrib>7890000000024</cEANTrib>
+          <uTrib>UN</uTrib><qTrib>24.0000</qTrib><vUnTrib>18.75</vUnTrib><indTot>1</indTot>
+        </prod>
+      </det>
+      <det nItem="2">
+        <prod>
+          <cProd>MOC-777</cProd><cEAN>7890000000031</cEAN><xProd>Mochila escolar</xProd>
+          <NCM>42029200</NCM><CFOP>5102</CFOP><uCom>UN</uCom><qCom>5.0000</qCom>
+          <vUnCom>129.00</vUnCom><vProd>645.00</vProd><cEANTrib>7890000000031</cEANTrib>
+          <uTrib>UN</uTrib><qTrib>5.0000</qTrib><vUnTrib>129.00</vUnTrib><indTot>1</indTot>
+        </prod>
+      </det>
+      <det nItem="3">
+        <prod>
+          <cProd>GRP-200</cProd><cEAN>SEM GTIN</cEAN><xProd>Grampeador de mesa</xProd>
+          <NCM>84729010</NCM><CFOP>5102</CFOP><uCom>UN</uCom><qCom>3.0000</qCom>
+          <vUnCom>39.90</vUnCom><vProd>119.70</vProd><cEANTrib>SEM GTIN</cEANTrib>
+          <uTrib>UN</uTrib><qTrib>3.0000</qTrib><vUnTrib>39.90</vUnTrib><indTot>1</indTot>
+        </prod>
+      </det>
+      <total>
+        <ICMSTot><vProd>1214.70</vProd><vNF>1214.70</vNF></ICMSTot>
+      </total>
+    </infNFe>
+  </NFe>
+  <protNFe versao="4.00">
+    <infProt><tpAmb>2</tpAmb><chNFe>31261144555666000181550020000003101990011222</chNFe><dhRecbto>2026-11-03T11:00:00-03:00</dhRecbto><nProt>135000000000310</nProt>
+      <cStat>100</cStat><xMotivo>Autorizado o uso da NF-e</xMotivo></infProt>
+  </protNFe>
+</nfeProc>
